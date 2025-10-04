@@ -1,38 +1,39 @@
 
 ---
 
-## ☕ `programs/java/README.md`
+## 💻 `programs/cpp/README.md`
 
 ```markdown
-# ☕ Java Programs
+# 💻 C++ Programs
 
-This folder is for **Java** programs contributed by developers participating in Hacktoberfest.
-
-You can add small console applications, algorithms, or data structure implementations here.
+Welcome to the **C++** section!  
+Contribute small C++ programs, algorithms, or data structure examples.  
+This is a great place to practice and help others learn. 🧠
 
 ---
 
 ## 💡 What You Can Add
-- Simple classes and OOP examples
-- Data structure implementations
-- Common algorithms (sorting, searching)
-- Command-line utilities
+- Classic algorithms (binary search, sorting)
+- Pattern printing programs
+- Data structures (linked list, stack, queue)
+- Small console-based games or projects
 
 ---
 
 ## 🧩 Naming Convention
-Each file should have a descriptive name using **CamelCase**:
-- BubbleSort.java
-- FactorialCalculator.java
+Use **snake_case** and `.cpp` extension:
+- prime_check.cpp
+- bubble_sort.cpp
 
 
 ---
 
 ## 🧠 Example
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, Hacktoberfest!");
-    }
-}
+```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+    cout << "Hello, Hacktoberfest!" << endl;
+    return 0;
+}
